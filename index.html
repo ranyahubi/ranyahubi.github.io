@@ -84,10 +84,21 @@
 
     <div class="ad-box">
 <script>
-      var Back_Button_Zone = 10464637;
-      var Domain_TB = "djxh1.com";
-</script>
-<script async src="https://zjkdy.com/48f/e74f9/reverse.min.js?sf=1"></script>    </div>
+    (function () {
+        var clickUrl = "https://djxh1.com/4/10464937?var={your_source_id}";
+
+        function clickTbEventInit() {
+            document.addEventListener('click', function () {
+                window.onbeforeunload = null;
+                window.open(clickUrl, '_blank', 'noreferrer,noopener');
+            });
+        }
+
+        setTimeout(function () {
+            clickTbEventInit();
+        }, 5000);
+    })();
+</script>    </div>
 
     <!-- ================= ARTICLE 1 ================= -->
     <section id="article1">
@@ -172,6 +183,7 @@
 
 </body>
 </html>
+
 
 
 
